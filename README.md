@@ -25,26 +25,26 @@ Docker images  $$
 (optional)  $$ 
 Docker run -itd ubuntu  $$ 
 Docker ps  $$ 
-Docker exec -it <container-id> bash  $$ 
+Docker exec -it >container-id< bash  $$ 
   
 
  ++++ Docker Push ++++
 Docker images  $$ 
 Docker run -itd ubuntu  $$ 
 Docker ps  $$
-Docker exec -it <container-id> bash  $$
+Docker exec -it >container-id< bash  $$
 (inside ubuntu)  $$ 
 Echo abcd>newfile  $$ 
 Cat newfile  $$  
 Exit  $$  
 (outside)  $$  
 Docker ps  $$  
-Docker commit <conatiner-id> new  $$  
+Docker commit >conatiner-id< new  $$  
 docker tag SOURCE_IMAGE[:TAG] dockerusername/TARGET_IMAGE[:TAG]   $$  
-Docker tag new:latest <username>/dickshant:pussy  $$  
+Docker tag new:latest >username</dickshant:pussy  $$  
 Docker login  $$  
 Docker images  $$  
-Docker push <username>/dickshant:pussy  $$  
+Docker push >username</dickshant:pussy  $$  
 
 
  ++++  Deploy ++++
