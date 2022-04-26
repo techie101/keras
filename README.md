@@ -6,7 +6,7 @@
 📫 How to reach me ...
 .
 .
-Ansible installation +++
++++ sAnsible installation +++
 $ sudo apt update 
 
 $ sudo apt install software-properties-common 
@@ -21,51 +21,83 @@ sudo apt-get remove --auto-remove git 	//uninstall
 
 
 
-//git push
++++git push+++
 
 mkdir devops
+
 Cd devops
+
 Git init
+
 git config --global user.email "you@example.com"
+
 git config --global user.name "Your Name"
+
 nano print.py , enter command , c+x , yes
+
 Git add .
+
 Git status
+
 Git commit -m “message”
+
 Git remote add origin “https://github.com/abcd/devops_trial.git”
+
 Git push -u origin main/master
 
-// git_pull
+
++++git_pull+++
 
 mkdir devops
+
 Cd devops
-git init
-Git remote add origin <link>
-Git pull origin <branch>
 
-// Git_config
+git init
+
+Git remote add origin <link>
+
+Git pull origin <branch>
+  
+
++++Git_config+++
 
 mkdir devops
+  
 Cd devops
 Git init
+  
 Git config user.email “<email>”
+  
 Git config user.name “<name>”
+  
 Ls -al
+  
 Cd .git
+  
 Ls -al
+  
 Cat config
 
 
 
-// git log
++++git log++++
 
 mkdir devops
+  
 Cd devops
+  
 Git init
+  
 git config --global user.email "you@example.com"
+  
 git config --global user.name "Your Name"
+  
 nano print.py , enter command , c+x , yes
+  
 Git add .
+  
 Git status
+  
 Git commit -m “message”
+  
 git log
